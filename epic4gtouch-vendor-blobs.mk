@@ -20,7 +20,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/epic4gtouch/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so \
 	vendor/samsung/epic4gtouch/proprietary/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
 	vendor/samsung/epic4gtouch/proprietary/lib/libfimc.so:obj/lib/libfimc.so \
-	vendor/samsung/epic4gtouch/proprietary/lib/libTVOut.so:obj/lib/libTVOut.so
+	vendor/samsung/epic4gtouch/proprietary/lib/libTVOut.so:obj/lib/libTVOut.so \
+	vendor/samsung/epic4gtouch/proprietary/lib/libUMP.so:obj/lib/libUMP.so \
+	vendor/samsung/epic4gtouch/proprietary/lib/libion.so:obj/lib/libion.so 
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/epic4gtouch/proprietary/bin/rild:system/bin/rild \
